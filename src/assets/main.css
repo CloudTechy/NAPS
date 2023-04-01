@@ -1,0 +1,82 @@
+@import './base.css';
+@font-face {
+    font-family: 'mulishregular';
+    src: url('/webFonts/mulish-regular-webfont.woff2') format('woff2'),
+         url('/webFonts/mulish-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.frame-banner {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 100px;
+gap: 15px;
+}
+.font-20{
+  font-size : 20px
+}
+
+
+@font-face {
+    font-family: 'mulishmedium';
+    src: url('/webFonts/mulish-medium-webfont.woff2') format('woff2'),
+         url('/webFonts/mulish-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+
+.my-text-primary {
+  color : var(--my-primary);
+}
+.my-bg-primary {
+  background-color : var(--my-primary);
+}
+.my-text-secondary {
+  color : var(--my-secondary);
+}
+.my-bg-secondary {
+  background-color : var(--my-secondary);
+}
+
+
+.my-primary-active-link {
+  color : var(--my-primary) !important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0);
+}
+.nav-item.active .nav-link {
+  color : var(--my-primary)
+}
+.leading_box{
+  box-sizing: border-box;
+
+width: 100%;
+height: 46px;
+
+background: #F5F5F5;
+border-width: 1px 0px;
+border-style: solid;
+border-color: rgba(0, 0, 0, 0.4);
+
+}
